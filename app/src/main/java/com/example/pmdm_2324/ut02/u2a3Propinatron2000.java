@@ -77,6 +77,7 @@ public class u2a3Propinatron2000 extends AppCompatActivity {
         btBorrarUlt.setOnClickListener(manejador);
         btClear.setOnClickListener(manejador);
 
+
         btCalcular.setOnClickListener((View v) -> {
             double cuenta = Double.parseDouble(tvCuenta.getText().toString());
             String total;
